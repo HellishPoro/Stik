@@ -10,10 +10,18 @@
       </div>
   
       <div class="icons">
-        <Icon icon="mdi:magnify" width="28" class="desktop-icon" />
-        <Icon icon="mdi:bookmark-outline" width="28" class="desktop-icon" />
-        <Icon icon="mdi:account-outline" width="28" class="desktop-icon" />
-        <Icon icon="mdi:shopping-outline" class="general-icon" />
+        <button>
+          <Icon icon="mdi:magnify" width="28" class="desktop-icon" />
+        </button>
+        <button>
+          <Icon icon="mdi:bookmark-outline" width="28" class="desktop-icon" />
+        </button>
+        <button>
+          <Icon icon="mdi:account-outline" width="28" class="desktop-icon" />
+        </button>
+        <button>
+          <Icon icon="mdi:shopping-outline" class="general-icon" />
+        </button>
       </div>
     </header>
   </template>
@@ -61,11 +69,19 @@
   
   .desktop-icon {
     display: block;
+    color: black;
   }
 
   .general-icon{
+    color: black;
     width: 28px;
     height: 28px;
+  }
+
+  button{
+    background: white;
+    border: none;
+    cursor: pointer;
   }
   
   @media (max-width: 768px) {
