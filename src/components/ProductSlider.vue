@@ -197,6 +197,16 @@ function prev() {
   right: 16px;
 }
 
+:deep(.swiper-pagination-bullet) {
+  background: white; 
+  opacity: 0.5;      
+  transition: opacity 0.3s ease; 
+}
+
+:deep(.swiper-pagination-bullet-active) {
+  opacity: 1;     
+}
+
 @media (max-width: 768px) {
   .desktop-slider {
     display: none;
