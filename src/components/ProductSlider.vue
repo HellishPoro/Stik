@@ -88,6 +88,7 @@ function prev() {
 .desktop-slider {
   display: flex;
   gap: 16px;
+  margin-left: 150px;
 }
 
 .thumbs {
