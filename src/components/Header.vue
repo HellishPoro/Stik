@@ -1,6 +1,6 @@
 <template>
     <header class="header">
-      <div class="mobile-left-icons" v-if="isMobile">
+      <div class="mobile-left-icons">
         <Icon icon="mdi:magnify" width="20" />
         <Icon icon="mdi:account-outline" width="20" />
       </div>
