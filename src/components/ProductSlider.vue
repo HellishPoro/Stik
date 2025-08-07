@@ -36,7 +36,6 @@
           <img :src="image" alt="Product image" />
         </swiper-slide>
         
-        <!-- Кастомные стрелки -->
         <div class="mobile-navigation">
           <button class="arrow mobile-prev">
             <Icon icon="mdi:chevron-left" width="24" />
@@ -62,9 +61,9 @@ import { Icon } from '@iconify/vue'
 SwiperCore.use([Navigation, Pagination])
 
 const images = [
-  '/src/assets/product/1.png',
-  '/src/assets/product/2.png',
-  '/src/assets/product/3.png',
+  '../assets/product/1.png',
+  '../assets/product/2.png',
+  '../assets/product/3.png',
 ]
 const activeIndex = ref(0)
 

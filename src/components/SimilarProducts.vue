@@ -17,10 +17,10 @@
 import ProductCard from './ProductCard.vue'
 
 const items = [
-  { image: '/src/assets/product/4.png', name: 'Платье с глубоким вырезом, белый', price: '14 900 RUB' },
-  { image: '/src/assets/product/5.png', name: 'Жакет двубортный, серо-голубой', price: '8 900 RUB' },
-  { image: '/src/assets/product/6.png', name: 'Платье макси с рюшами, белый', price: '10 500 RUB' },
-  { image: '/src/assets/product/7.png', name: 'Комбинезон со стойкой, черный', price: '9 500 RUB' },
+  { image: '../assets/product/4.png', name: 'Платье с глубоким вырезом, белый', price: '14 900 RUB' },
+  { image: '../assets/product/5.png', name: 'Жакет двубортный, серо-голубой', price: '8 900 RUB' },
+  { image: '../assets/product/6.png', name: 'Платье макси с рюшами, белый', price: '10 500 RUB' },
+  { image: '../assets/product/7.png', name: 'Комбинезон со стойкой, черный', price: '9 500 RUB' },
 ]
 </script>
 
