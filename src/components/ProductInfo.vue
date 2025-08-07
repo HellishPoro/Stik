@@ -1,7 +1,9 @@
 <template>
     <div class="info">
-      <h1>ЖАКЕТ УДЛИНЕННЫЙ, БЕЛЫЙ</h1>
-      <div class="price">8 900 RUB</div>
+      <div>
+        <h1>ЖАКЕТ УДЛИНЕННЫЙ, БЕЛЫЙ</h1>
+        <div class="price">8 900 RUB</div>
+      </div>
         <div class="sizes">
         <p class="descrip">Размеры: </p>
         <div class="sizes-row">
@@ -107,6 +109,7 @@
   
   .price,
   h1 {
+    font-size: 12px;
     display: flex;
     margin: 5px;
     font-weight: 400;
@@ -226,6 +229,7 @@
     letter-spacing: 0.5px;
     transition: background 0.2s;
     height: 44px;
+    width: 306px;
   }
   
   .btn:hover {
