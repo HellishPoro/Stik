@@ -21,7 +21,7 @@
   <script setup>
   import { Icon } from '@iconify/vue'
   import { computed } from 'vue'
-  import logo from '../assets/product/9.png'
+  import logo from '../assets/product/n.png'
   
   const isMobile = computed(() => window.innerWidth <= 768)
   </script>

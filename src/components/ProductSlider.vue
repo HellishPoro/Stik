@@ -57,13 +57,16 @@ import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import { Icon } from '@iconify/vue'
+import one from '../assets/product/one.png'
+import two from '../assets/product/two.png'
+import three from '../assets/product/three.png'
 
 SwiperCore.use([Navigation, Pagination])
 
 const images = [
-  '../assets/product/1.png',
-  '../assets/product/2.png',
-  '../assets/product/3.png',
+  one,
+  two,
+  three,
 ]
 const activeIndex = ref(0)
 

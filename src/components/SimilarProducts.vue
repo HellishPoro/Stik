@@ -15,12 +15,16 @@
 
 <script setup>
 import ProductCard from './ProductCard.vue'
+import four from '../assets/product/four.png'
+import five from '../assets/product/five.png'
+import s from '../assets/product/s.png'
+import seven from '../assets/product/seven.png'
 
 const items = [
-  { image: '../assets/product/4.png', name: 'Платье с глубоким вырезом, белый', price: '14 900 RUB' },
-  { image: '../assets/product/5.png', name: 'Жакет двубортный, серо-голубой', price: '8 900 RUB' },
-  { image: '../assets/product/6.png', name: 'Платье макси с рюшами, белый', price: '10 500 RUB' },
-  { image: '../assets/product/7.png', name: 'Комбинезон со стойкой, черный', price: '9 500 RUB' },
+  { image: four, name: 'Платье с глубоким вырезом, белый', price: '14 900 RUB' },
+  { image: five, name: 'Жакет двубортный, серо-голубой', price: '8 900 RUB' },
+  { image: s, name: 'Платье макси с рюшами, белый', price: '10 500 RUB' },
+  { image: seven, name: 'Комбинезон со стойкой, черный', price: '9 500 RUB' },
 ]
 </script>
 
