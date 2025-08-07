@@ -21,10 +21,10 @@ import s from '../assets/product/s.png'
 import seven from '../assets/product/seven.png'
 
 const items = [
-  { image: four, name: 'Платье с глубоким вырезом, белый', price: '14 900 RUB' },
-  { image: five, name: 'Жакет двубортный, серо-голубой', price: '8 900 RUB' },
-  { image: s, name: 'Платье макси с рюшами, белый', price: '10 500 RUB' },
-  { image: seven, name: 'Комбинезон со стойкой, черный', price: '9 500 RUB' },
+  { image: four, name: 'ПЛАТЬЕ С V-ОБРАЗНЫМ ВЫРЕЗОМ, БЕЛЫЙ', price: '14 900 RUB' },
+  { image: five, name: 'ЖАКЕТ ДВУБОРТНЫЙ, СЕРО-ГОЛУБОЙ', price: '8 900 RUB' },
+  { image: s, name: 'ПЛАТЬЕ МАКСИ С ЯРУСАМИ, БЕЛЫЙ', price: '10 500 RUB' },
+  { image: seven, name: 'КОМБИНЕЗОН СО СТОЙКОЙ, ЧёРНЫЙ', price: '9 500 RUB' },
 ]
 </script>
 
